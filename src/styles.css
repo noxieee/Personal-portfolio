@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 html {
-  background: #ffffff;
+  background: #121212;
   height: 100%;
   font-size: 20px;
   font-family: "Ubuntu", sans-serif;
-  color: #2a3147;
+  color: #dfdfdf;
 }
 
 html, body {
@@ -16,20 +16,12 @@ body {
   height: 100%;
 }
 
-main {
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
 h1, h2, h3, h4, p {
   margin: 0;
 }
 
 h1, h2, h3, h4 {
-  color: #020a20;
+  color: #ffffff;
 }
 
 h1 {

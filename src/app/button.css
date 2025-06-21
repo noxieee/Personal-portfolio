@@ -8,10 +8,10 @@
   gap: 12px;
   padding: 0 16px;
   border-radius: 20px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 .button.primary {
-  background-color: #0080ff;
+  background-color: #0082ff;
   color: #ffffff;
   transition-duration: 150ms;
 }
@@ -20,14 +20,14 @@
   transition-duration: 150ms;
 }
 .button.secondary {
-  background-color: #ffffff;
-  color: #004A94;
-  border: 1px solid #e3e3e3;
+  background-color: #171717;
+  color: #42a3ff;
+  border: 2px solid #42a3ff;
   box-sizing: border-box;
   transition-duration: 150ms;
 }
 .button.secondary:hover {
-  background-color: #f8f8f8;
+  background-color: #2c2c2c;
   transition-duration: 150ms;
 }
 .button i {

@@ -1,13 +1,28 @@
-.name-positions-wrapper {
+.name-title {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
+.name-positions-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  h1 {
+    font-size: 4rem;
+    align-self: flex-start; /* optional */
+    background: linear-gradient(90deg,rgba(0, 212, 255, 1) 0%, rgba(255, 41, 173, 1) 100%);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
 .cta-buttons {
-  padding-top: 16px;
   display: flex;
   flex-direction: row;
   gap: 16px;
   flex-wrap: wrap;
+  align-self: flex-start;
 }

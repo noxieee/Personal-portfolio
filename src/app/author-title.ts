@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {Button} from './button';
+import {NgOptimizedImage} from '@angular/common';
 
 @Component({
   selector: 'author-title',
-  imports: [RouterOutlet, Button],
+  imports: [RouterOutlet, Button, NgOptimizedImage],
   templateUrl: './author-title.html',
   styleUrl: './author-title.scss'
 })

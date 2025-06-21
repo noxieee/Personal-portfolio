@@ -10,7 +10,7 @@
   gap: 12px;
   padding: 0 16px;
   border-radius: 20px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, .3);
 
   &.primary {
     background-color: $button-primary-bg;
@@ -26,7 +26,7 @@
   &.secondary {
     background-color: $button-secondary-bg;
     color: $button-secondary-text;
-    border: 1px solid $button-primary-outline;
+    border: 2px solid $button-primary-outline;
     box-sizing: border-box;
     transition-duration: 150ms;
 

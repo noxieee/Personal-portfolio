@@ -1,15 +1,29 @@
-.name-positions-wrapper {
+.name-title {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
+.name-positions-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.name-positions-wrapper h1 {
+  font-size: 4rem;
+  align-self: flex-start; /* optional */
+  background: linear-gradient(90deg, rgb(0, 212, 255) 0%, rgb(255, 41, 173) 100%);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .cta-buttons {
-  padding-top: 16px;
   display: flex;
   flex-direction: row;
   gap: 16px;
   flex-wrap: wrap;
+  align-self: flex-start;
 }
 
 /*# sourceMappingURL=author-title.css.map */
