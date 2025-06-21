@@ -1,5 +1,7 @@
+@import "../lib/_colors.scss";
+
 html {
-  background: #ffffff;
+  background: $html-background;
   height: 100%;
 }
 
@@ -19,5 +21,3 @@ main {
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
-
-/*# sourceMappingURL=styles.css.map */
