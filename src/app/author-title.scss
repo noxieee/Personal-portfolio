@@ -26,3 +26,30 @@
   flex-wrap: wrap;
   align-self: flex-start;
 }
+
+.blinking-underscore {
+  display: inline-block;
+  color: inherit;
+  animation: blink 1s step-end infinite;
+  // Safari quirk fix:
+  -webkit-animation: blink 1s step-end infinite;
+  will-change: opacity;
+}
+
+.cursor {
+  display: inline;
+  animation: blink 1s infinite steps(2, start);
+  -webkit-animation: blink 1s infinite steps(2, start); // Safari support
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
