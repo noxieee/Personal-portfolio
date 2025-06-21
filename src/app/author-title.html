@@ -1,0 +1,24 @@
+<div class="name-positions-wrapper">
+  <h1 class="ubuntu-bold">{{authorName}}</h1>
+  <p>{{positions}}</p>
+
+  <div class="cta-buttons">
+    <custom-button
+      [text]="'View CV'"
+      [icon]="'fi-rr-CV'"
+      [type]="'primary'"
+      [link]="'#'"
+    >
+    </custom-button>
+
+    <custom-button
+      [text]="'LinkedIn'"
+      [icon]="'fi-brands-linkedin'"
+      [type]="'secondary'"
+      [link]="'https://www.linkedin.com/in/vojtech-keder/'"
+    >
+    </custom-button>
+  </div>
+</div>
+
+<router-outlet />

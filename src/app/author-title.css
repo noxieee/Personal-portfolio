@@ -1,0 +1,15 @@
+.name-positions-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cta-buttons {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=author-title.css.map */

@@ -1,0 +1,44 @@
+@import "../../lib/_colors.scss";
+
+.button {
+  text-decoration: none;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  gap: 12px;
+  padding: 0 16px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+
+  &.primary {
+    background-color: $button-primary-bg;
+    color: $button-primary-text;
+    transition-duration: 150ms;
+
+    &:hover {
+      background-color: $button-primary-bg-hover;
+      transition-duration: 150ms;
+    }
+  }
+
+  &.secondary {
+    background-color: $button-secondary-bg;
+    color: $button-secondary-text;
+    border: 1px solid $button-primary-outline;
+    box-sizing: border-box;
+    transition-duration: 150ms;
+
+    &:hover {
+      background-color: $button-secondary-bg-hover;
+      transition-duration: 150ms;
+    }
+  }
+
+  i {
+    display: inline-flex;
+    align-items: center;
+    font-size: 24px;
+  }
+}

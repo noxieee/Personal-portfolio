@@ -1,0 +1,39 @@
+.button {
+  text-decoration: none;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  gap: 12px;
+  padding: 0 16px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.button.primary {
+  background-color: #0080ff;
+  color: #ffffff;
+  transition-duration: 150ms;
+}
+.button.primary:hover {
+  background-color: #0064c5;
+  transition-duration: 150ms;
+}
+.button.secondary {
+  background-color: #ffffff;
+  color: #004A94;
+  border: 1px solid #e3e3e3;
+  box-sizing: border-box;
+  transition-duration: 150ms;
+}
+.button.secondary:hover {
+  background-color: #f8f8f8;
+  transition-duration: 150ms;
+}
+.button i {
+  display: inline-flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=button.css.map */
