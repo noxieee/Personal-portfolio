@@ -14,4 +14,6 @@ export class Button {
   @Input() text: string = '';
   @Input() link: string = '';
   @Input() type: string = '';
+  @Input() target: string = '';
+  @Input() filename: string = '';
 }
