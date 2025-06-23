@@ -1,0 +1,28 @@
+@import "../../lib/_colors.scss";
+
+.work-experience-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.experience-row {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.vertical-progressbar {
+  margin: 32px 0;
+  width: 4px;
+  align-self: stretch;
+  border-radius: 2px;
+  background: $gradient-thematic-45degrees;
+}
+
+.work-experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

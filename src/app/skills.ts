@@ -10,6 +10,15 @@ import {SkillPill} from './skill-pill';
 })
 
 export class Skills {
-  protected skillTexts = ["UX/UI", "Accessibility", "HTML5", "SCSS", "Git", "JS", "TS", "Angular", "English C1"];
-  protected skillsIconsUrls = ["figma.svg", "accessibility.svg", "html5.svg", "sass.svg", "git.svg", "js.svg", "ts.svg", "angular.svg", "language.svg"];
+  protected skills = [
+    ["UX/UI", "figma.svg"],
+    ["Accessibility", "accessibility.svg"],
+    ["HTML5", "html5.svg"],
+    ["SCSS", "sass.svg"],
+    ["Git", "git.svg"],
+    ["JS", "js.svg"],
+    ["TS", "ts.svg"],
+    ["Angular", "angular.svg"],
+    ["English C1", "language.svg"],
+  ]
 }

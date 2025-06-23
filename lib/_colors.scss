@@ -3,11 +3,14 @@ $html-background: #121212;
 $header-background: #222222;
 $header-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 
-$thematic-gradient: linear-gradient(45deg,rgba(0, 212, 255, 1) 0%, rgba(255, 41, 173, 1) 100%);
-$thematic-gradient-subtle: linear-gradient(45deg,rgba(0, 212, 255, 0.4) 0%, rgba(255, 41, 173, 0.4) 100%);
+$gradient-thematic: linear-gradient(90deg,rgba(0, 212, 255, 1) 0%, rgba(255, 0, 136, 1) 100%);
+$gradient-thematic-45degrees: linear-gradient(45deg, rgba(255, 0, 136, 1) 0%, rgba(0, 178, 255, 1) 100%);
+$gradient-thematic-subtle: linear-gradient(45deg,rgba(0, 212, 255, 0.4) 0%, rgba(255, 0, 1365, 0.4) 100%);
+$gradient-neutral-light: linear-gradient(45deg, rgba(212, 247, 255, 1) 0%, rgba(172, 172, 172, 1) 100%);
 
 $text-headings: #ffffff;
-$text-paragraph: #dfdfdf;
+$text-paragraph: #cdcdcd;
+$text-paragraph-subtle: #a6a6a6;
 
 $button-primary-bg: #0082ff;
 $button-primary-bg-hover: #0064c5;

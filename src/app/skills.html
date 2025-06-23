@@ -1,11 +1,11 @@
 <div class="skills-wrapper">
-  <h2>Dovednosti_</h2>
+  <h2>Dovednosti</h2>
 
   <div class="skills-container">
-    @for (text of skillTexts; let i = $index; track text) {
+    @for (skill of skills; track skill) {
       <skill-pill
-        [skillText]="text"
-        [iconUrl]="skillsIconsUrls[i]"
+        [skillText]=skill[0]
+        [iconUrl]=skill[1]
       ></skill-pill>
     }
   </div>

@@ -1,0 +1,21 @@
+<div class="work-experience-wrapper">
+  <h2>Zkušenosti</h2>
+
+  <div class="experience-row">
+    <div class="vertical-progressbar"></div>
+
+    <div class="work-experience-container">
+      @for (experience of workExperience; track experience) {
+        <work-experience-tile
+          [logoUrl]=experience[0]
+          [jobTitle]=experience[1]
+          [companyName]=experience[2]
+          [dateFrom]=experience[3]
+          [dateTo]=experience[4]
+        ></work-experience-tile>
+      }
+    </div>
+  </div>
+</div>
+
+<router-outlet />
