@@ -1,0 +1,19 @@
+@import "../../lib/_colors.scss";
+
+.skill-pill-outer {
+  display: inline-flex;
+  padding: 2px;
+  border-radius: 16px;
+  background: $thematic-gradient;
+  box-shadow: $item-shadow-light;
+}
+
+.skill-pill-inner {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 8px;
+  padding: 8px 16px 8px 12px;
+  border-radius: 14px;
+  background: $skill-pill-bg;
+  align-items: center;
+}

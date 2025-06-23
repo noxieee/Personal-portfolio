@@ -5,7 +5,7 @@ import {NgOptimizedImage} from '@angular/common';
 
 @Component({
   selector: 'author-title',
-  imports: [RouterOutlet, Button, NgOptimizedImage],
+  imports: [RouterOutlet, Button],
   templateUrl: './author-title.html',
   styleUrl: './author-title.scss'
 })

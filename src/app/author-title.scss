@@ -1,3 +1,5 @@
+@import "../../lib/_colors.scss";
+
 .name-title {
   display: flex;
   flex-direction: column;
@@ -12,7 +14,7 @@
   h1 {
     font-size: 4rem;
     align-self: flex-start; /* optional */
-    background: linear-gradient(90deg,rgba(0, 212, 255, 1) 0%, rgba(255, 41, 173, 1) 100%);
+    background: $thematic-gradient;
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

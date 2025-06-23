@@ -1,0 +1,19 @@
+.skill-pill-outer {
+  display: inline-flex;
+  padding: 2px;
+  border-radius: 16px;
+  background: linear-gradient(45deg, rgb(0, 212, 255) 0%, rgb(255, 41, 173) 100%);
+  box-shadow: 4px 4px 8px 0 rgba(255, 255, 255, 0.1);
+}
+
+.skill-pill-inner {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 8px;
+  padding: 8px 16px 8px 12px;
+  border-radius: 14px;
+  background: #222222;
+  align-items: center;
+}
+
+/*# sourceMappingURL=skill-pill.css.map */
