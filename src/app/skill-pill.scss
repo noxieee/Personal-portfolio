@@ -1,11 +1,29 @@
 @import "../../lib/_colors.scss";
 
 .skill-pill-outer {
+  position: relative;
   display: inline-flex;
   padding: 2px;
   border-radius: 16px;
   background: $gradient-thematic-subtle;
   box-shadow: $item-shadow-dark;
+  transition: background 0.4s ease;
+  transition-duration: 0.4s;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: $gradient-thematic-45degrees;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 0;
+  }
+
+  &:has(.skill-pill-inner:hover)::before {
+    opacity: 1;
+  }
 }
 
 .skill-pill-inner {
@@ -16,4 +34,6 @@
   border-radius: 14px;
   background: $skill-pill-bg;
   align-items: center;
+  position: relative;
+  z-index: 1;
 }
