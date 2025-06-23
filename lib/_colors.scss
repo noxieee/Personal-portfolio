@@ -4,6 +4,7 @@ $header-background: #222222;
 $header-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 
 $thematic-gradient: linear-gradient(45deg,rgba(0, 212, 255, 1) 0%, rgba(255, 41, 173, 1) 100%);
+$thematic-gradient-subtle: linear-gradient(45deg,rgba(0, 212, 255, 0.4) 0%, rgba(255, 41, 173, 0.4) 100%);
 
 $text-headings: #ffffff;
 $text-paragraph: #dfdfdf;
@@ -17,7 +18,5 @@ $button-primary-outline: #42a3ff;
 $button-secondary-text: #42a3ff;
 
 $item-shadow-dark: 4px 4px 8px 0 rgba(0, 0, 0, .3);
-$item-shadow-light: 4px 4px 8px 0 rgba(255, 255, 255, .1);
 
 $skill-pill-bg: #222222;
-$skill-pill-border: white;

@@ -1,14 +1,14 @@
 .skills-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
 }
 
 .skills-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 16px;
 }
 
 /*# sourceMappingURL=skills.css.map */

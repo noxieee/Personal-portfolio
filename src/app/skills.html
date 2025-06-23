@@ -1,12 +1,13 @@
 <div class="skills-wrapper">
-  <h2>Skills</h2>
+  <h2>Dovednosti_</h2>
 
   <div class="skills-container">
-    <skill-pill
-      [skillText]="'HTML5'"
-      [iconUrl]="'html5.svg'"
-    >
-    </skill-pill>
+    @for (text of skillTexts; let i = $index; track text) {
+      <skill-pill
+        [skillText]="text"
+        [iconUrl]="skillsIconsUrls[i]"
+      ></skill-pill>
+    }
   </div>
 </div>
 

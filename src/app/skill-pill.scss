@@ -4,14 +4,14 @@
   display: inline-flex;
   padding: 2px;
   border-radius: 16px;
-  background: $thematic-gradient;
-  box-shadow: $item-shadow-light;
+  background: $thematic-gradient-subtle;
+  box-shadow: $item-shadow-dark;
 }
 
 .skill-pill-inner {
   display: inline-flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 12px;
   padding: 8px 16px 8px 12px;
   border-radius: 14px;
   background: $skill-pill-bg;
