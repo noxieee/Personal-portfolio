@@ -19,3 +19,16 @@ main {
   flex-direction: column;
   gap: 72px;
 }
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
+@media screen and (width >= 848px) {
+  .columns {
+    flex-direction: row;
+    gap: 96px;
+  }
+}
