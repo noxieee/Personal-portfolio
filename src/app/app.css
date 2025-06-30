@@ -24,7 +24,7 @@ main {
   gap: 72px;
 }
 
-@media screen and (width >= 848px) {
+@media screen and (width >= 758px) {
   .columns {
     flex-direction: row;
     gap: 96px;
