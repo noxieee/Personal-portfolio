@@ -1,0 +1,25 @@
+<div class="timeline-wrapper">
+  <h2>Vzdělání</h2>
+
+  <div class="timeline-row">
+    <div class="vertical-progressbar"></div>
+
+    <div class="timeline-container">
+      @for (educationItem of education; track educationItem) {
+        <education-tile
+          [isDone]=educationItem.isDone
+          [logoUrl]=educationItem.data[0]
+          [uniUrl]=educationItem.data[1]
+          [uniName]=educationItem.data[2]
+          [uniSpecialization]=educationItem.data[3]
+          [dateFrom]=educationItem.data[4]
+          [dateTo]=educationItem.data[5]
+          [thesisLink]=educationItem.data[6]
+        >
+        </education-tile>
+      }
+    </div>
+  </div>
+</div>
+
+<router-outlet />

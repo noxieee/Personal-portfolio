@@ -1,0 +1,27 @@
+<div class="education-tile">
+  <div class="timeline-image-wrapper">
+    <img ngSrc="{{logoUrl}}" alt="University logo" width="64" height="64">
+  </div>
+  <div class="text-column">
+    <a href="{{uniUrl}}" target="_blank">
+      <h5>{{uniName}}</h5>
+    </a>
+    <p>{{uniSpecialization}}</p>
+
+    @if (isDone) {
+      <p class="date-text"><span class="text-green">{{dateFrom}}</span> - {{dateTo}}</p>
+    }
+    @else {
+      <p class="date-text">{{dateFrom}} - {{dateTo}}</p>
+    }
+
+    @if (isDone) {
+      <a class="thesis-link" href="{{thesisLink}}" target="_blank">
+        <span>Závěrečná práce</span>
+        <i class="fi-rr-arrow-up-right-from-square"></i>
+      </a>
+    }
+  </div>
+</div>
+
+<router-outlet />

@@ -1,0 +1,56 @@
+@import "../../lib/_colors.scss";
+
+.education-tile {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+
+  .date-text {
+    font-size: 0.75rem;
+    margin-top: 4px;
+    color: $text-paragraph-subtle;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  a {
+    text-decoration-color: $text-headings;
+    text-decoration-thickness: 1px;
+    align-self: flex-start;
+  }
+}
+
+.text-column {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.thesis-link {
+  text-decoration: none;
+  color: $link;
+  transition-duration: 200ms;
+  font-size: 0.9rem;
+  margin-top: 8px;
+  align-self: flex-start;
+
+  i {
+    vertical-align: middle;
+  }
+
+  span {
+    margin-right: 8px;
+  }
+
+  &:hover {
+    color: $link-hover;
+    transition-duration: 200ms;
+  }
+}
+
+.text-green {
+  color: $success-text;
+  font-weight: bold;
+}

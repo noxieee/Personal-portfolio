@@ -1,0 +1,50 @@
+.education-tile {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.education-tile .date-text {
+  font-size: 0.75rem;
+  margin-top: 4px;
+  color: #a6a6a6;
+}
+.education-tile p {
+  font-size: 0.9rem;
+}
+.education-tile a {
+  text-decoration-color: #ffffff;
+  text-decoration-thickness: 1px;
+  align-self: flex-start;
+}
+
+.text-column {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.thesis-link {
+  text-decoration: none;
+  color: #1abcfe;
+  transition-duration: 200ms;
+  font-size: 0.9rem;
+  margin-top: 8px;
+  align-self: flex-start;
+}
+.thesis-link i {
+  vertical-align: middle;
+}
+.thesis-link span {
+  margin-right: 8px;
+}
+.thesis-link:hover {
+  color: #0089bd;
+  transition-duration: 200ms;
+}
+
+.text-green {
+  color: #0acf83;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=education-tile.css.map */

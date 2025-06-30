@@ -6,7 +6,7 @@ import {NgOptimizedImage} from '@angular/common';
   selector: 'work-experience-tile',
   imports: [RouterOutlet, NgOptimizedImage],
   templateUrl: 'work-experience-tile.html',
-  styleUrl: 'work-experience-tile.scss'
+  styleUrls: ['work-experience-tile.scss', 'timeline.scss']
 })
 
 export class WorkExperienceTile {

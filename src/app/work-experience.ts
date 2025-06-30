@@ -1,13 +1,12 @@
 import {Component} from '@angular/core';
-import {Router, RouterOutlet} from '@angular/router';
-import {SkillPill} from './skill-pill';
+import {RouterOutlet} from '@angular/router';
 import {WorkExperienceTile} from './work-experience-tile';
 
 @Component({
   selector: 'work-experience',
-  imports: [RouterOutlet, SkillPill, WorkExperienceTile],
+  imports: [RouterOutlet, WorkExperienceTile],
   templateUrl: 'work-experience.html',
-  styleUrl: 'work-experience.scss'
+  styleUrl: 'timeline.scss'
 })
 
 export class WorkExperience {
