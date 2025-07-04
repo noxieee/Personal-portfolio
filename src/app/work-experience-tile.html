@@ -1,10 +1,10 @@
 <div class="work-experience-tile">
-  <div class="timeline-image-wrapper">
+  <a class="timeline-image-wrapper" href="{{companyUrl}}" target="_blank">
     <img ngSrc="{{logoUrl}}" alt="Company logo" width="64" height="64">
-  </div>
+  </a>
   <div class="text-column">
     <h5>{{jobTitle}}</h5>
-    <p>{{companyName}}</p>
+    <p><a href="{{companyUrl}}" target="_blank">{{companyName}}</a></p>
     <p class="date-text">{{dateFrom}} - {{dateTo}}</p>
   </div>
 </div>

@@ -13,6 +13,7 @@ export class WorkExperienceTile {
   @Input() logoUrl = '';
   @Input() jobTitle = '';
   @Input() companyName = '';
+  @Input() companyUrl = '';
   @Input() dateFrom = '';
   @Input() dateTo = '';
 }
