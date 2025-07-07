@@ -4,28 +4,17 @@
       {{authorName}}
       <span class="cursor">_</span>
     </h1>
-    <p>{{positions}}</p>
-  </div>
-
-  <div class="cta-buttons">
-    <custom-button
-      [text]="'Životopis'"
-      [icon]="'fi-rr-CV'"
-      [type]="'primary'"
-      [link]="'cv.pdf'"
-      [target]='"_blank"'
-      [filename]='"vojtech_keder_cv.pdf"'
-    >
-    </custom-button>
-
-    <custom-button
-      [text]="'LinkedIn'"
-      [icon]="'fi-brands-linkedin'"
-      [type]="'secondary'"
-      [link]="'https://www.linkedin.com/in/vojtech-keder/'"
-      [target]='"_blank"'
-    >
-    </custom-button>
+    <div class="row">
+      <p>{{positions}}</p>
+      <custom-button
+        [text]="'LinkedIn'"
+        [icon]="'fi-brands-linkedin'"
+        [type]="'primary'"
+        [link]="'https://www.linkedin.com/in/vojtech-keder/'"
+        [target]='"_blank"'
+      >
+      </custom-button>
+    </div>
   </div>
 </div>
 

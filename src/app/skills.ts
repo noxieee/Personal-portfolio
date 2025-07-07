@@ -12,13 +12,13 @@ import {SkillPill} from './skill-pill';
 export class Skills {
   protected skills = [
     ["UX/UI", "figma.svg"],
-    ["Accessibility", "accessibility.svg"],
+    ["Přístupnost", "accessibility.svg"],
     ["HTML5", "html5.svg"],
     ["SCSS", "sass.svg"],
     ["Git", "git.svg"],
     ["JS", "js.svg"],
     ["TS", "ts.svg"],
     ["Angular", "angular.svg"],
-    ["English C1", "language.svg"],
+    ["Angličtina C1", "language.svg"]
   ]
 }

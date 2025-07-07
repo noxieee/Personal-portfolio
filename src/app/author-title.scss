@@ -21,12 +21,13 @@
   }
 }
 
-.cta-buttons {
+.row {
   display: flex;
   flex-direction: row;
-  gap: 24px;
+  gap: 32px;
   flex-wrap: wrap;
   align-self: flex-start;
+  align-items: center;
 }
 
 .blinking-underscore {
