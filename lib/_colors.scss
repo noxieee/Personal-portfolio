@@ -1,6 +1,7 @@
 $html-background: #121212;
 
-$header-background: #222222;
+$header-background: rgba(34, 34, 34, 0.5);
+$header-border: rgb(37, 37, 37);
 $header-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 
 $gradient-thematic: linear-gradient(90deg,rgba(0, 212, 255, 1) 0%, rgba(255, 0, 136, 1) 100%);
@@ -27,4 +28,4 @@ $success-text: #0acf83;
 
 $item-shadow-dark: 4px 4px 8px 0 rgba(0, 0, 0, .3);
 
-$skill-pill-bg: #222222;
+$skill-pill-bg: rgba(34, 34, 34, 0.9);
