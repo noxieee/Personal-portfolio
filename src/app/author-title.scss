@@ -3,12 +3,6 @@
 .name-title {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-}
-
-.name-positions-wrapper {
-  display: flex;
-  flex-direction: column;
   gap: 32px;
 
   h1 {
@@ -28,13 +22,13 @@
   flex-wrap: wrap;
   align-self: flex-start;
   align-items: center;
+  padding-left: 8px;
 }
 
 .blinking-underscore {
   display: inline-block;
   color: inherit;
   animation: blink 1s step-end infinite;
-  // Safari quirk fix:
   -webkit-animation: blink 1s step-end infinite;
   will-change: opacity;
 }
