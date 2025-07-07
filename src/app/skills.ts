@@ -19,6 +19,7 @@ export class Skills {
     ["JS", "js.svg"],
     ["TS", "ts.svg"],
     ["Angular", "angular.svg"],
+    ["Jira", "jira.svg"],
     ["Angličtina C1", "language.svg"]
   ]
 }
