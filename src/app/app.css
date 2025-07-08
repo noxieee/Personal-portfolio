@@ -9,6 +9,7 @@ header {
 header, main, footer {
   max-width: 800px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 main {
@@ -34,9 +35,6 @@ footer {
   .columns {
     flex-direction: row;
     gap: 96px;
-  }
-  header {
-    border-right: 2px solid rgb(37, 37, 37);
   }
 }
 
