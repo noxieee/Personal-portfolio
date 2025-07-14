@@ -36,6 +36,10 @@ footer {
     flex-direction: row;
     gap: 96px;
   }
+  .column-50 {
+    display: flex;
+    flex: 1;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
