@@ -34,7 +34,6 @@ footer {
 @media screen and (width >= 758px) {
   .columns {
     flex-direction: row;
-    gap: 96px;
   }
   .column-50 {
     display: flex;

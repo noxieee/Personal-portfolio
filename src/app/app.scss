@@ -9,7 +9,7 @@ header {
 }
 
 header, main, footer {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -36,7 +36,6 @@ footer {
 @media screen and (width >= 758px) {
   .columns {
     flex-direction: row;
-    gap: 96px;
   }
 
   .column-50 {
