@@ -7,8 +7,8 @@
   border-radius: 16px;
   background: $gradient-thematic-subtle;
   box-shadow: $item-shadow-dark;
-  transition: background 0.4s ease;
-  transition-duration: 0.4s;
+  transition: background 0.3s ease;
+  transition-duration: 0.3s;
 
   &::before {
     content: '';
@@ -17,7 +17,7 @@
     border-radius: inherit;
     background: $gradient-thematic-45degrees;
     opacity: 0;
-    transition: opacity 0.4s ease;
+    transition: opacity 0.3s ease;
     z-index: 0;
   }
 

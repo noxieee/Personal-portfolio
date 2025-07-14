@@ -18,6 +18,13 @@
   a {
     text-decoration-thickness: 1px;
     color: $text-paragraph;
+    align-self: flex-start;
+    transition-duration: 200ms;
+
+    &:hover {
+      color: $link-hover;
+      transition-duration: 200ms;
+    }
   }
 }
 

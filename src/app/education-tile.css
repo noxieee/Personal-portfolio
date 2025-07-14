@@ -15,6 +15,18 @@
   text-decoration-color: #ffffff;
   text-decoration-thickness: 1px;
   align-self: flex-start;
+  transition-duration: 200ms;
+}
+.education-tile a:hover {
+  text-decoration-color: #0089bd;
+  transition-duration: 200ms;
+}
+.education-tile a h5 {
+  transition-duration: 200ms;
+}
+.education-tile a h5:hover {
+  color: #0089bd;
+  transition-duration: 200ms;
 }
 
 .text-column {

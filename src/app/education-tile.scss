@@ -19,6 +19,21 @@
     text-decoration-color: $text-headings;
     text-decoration-thickness: 1px;
     align-self: flex-start;
+    transition-duration: 200ms;
+
+    &:hover {
+      text-decoration-color: $link-hover;
+      transition-duration: 200ms;
+    }
+
+    h5 {
+      transition-duration: 200ms;
+
+      &:hover {
+        color: $link-hover;
+        transition-duration: 200ms;
+      }
+    }
   }
 }
 
