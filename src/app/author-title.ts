@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {Button} from './button';
+import {Button, ButtonType} from './button';
 
 @Component({
   selector: 'author-title',
@@ -12,4 +12,5 @@ import {Button} from './button';
 export class AuthorTitle {
   protected authorName = "Vojtěch Keder";
   protected positions = "UX designer | Frontend Developer";
+  protected readonly ButtonType = ButtonType;
 }

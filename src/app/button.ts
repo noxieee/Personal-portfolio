@@ -10,10 +10,16 @@ import {NgClass} from '@angular/common';
 })
 
 export class Button {
-  @Input() icon: string = '';
+  @Input() iconLeft: string = '';
+  @Input() iconRight: string = '';
   @Input() text: string = '';
   @Input() link: string = '';
   @Input() type: string = '';
   @Input() target: string = '';
   @Input() filename: string = '';
+}
+
+export enum ButtonType {
+  PRIMARY = 'primary',
+  SECONDARY = 'secondary'
 }

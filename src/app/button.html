@@ -1,8 +1,11 @@
 <a class="button" [ngClass]="type" href="{{link}}" target="{{target}}" download="{{filename}}">
-  @if (icon) {
-    <i [class]="icon"></i>
+  @if (iconLeft) {
+    <i [class]="iconLeft"></i>
   }
   {{text}}
+  @if (iconRight) {
+    <i [class]="iconRight"></i>
+  }
 </a>
 
 <router-outlet />
